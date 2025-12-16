@@ -13,35 +13,6 @@ body {
   padding: 60px;
 }
 
-.link1,
-.link2 {
-  display: inline-block;
-  font-family: sans-serif;
-  color: white;
-  background-color: var(--teal-100);
-  padding: 16px 30px;
-  text-decoration: none;
-  outline: none;
-}
-
-.link1 {
-
-  /* border image */
-  border-image-source: url(../assets/images/link-pattern-top.png);
-  border-image-slice: 1;
-  border-image-width: 1073px;
-  border-image-outset: 16px;
-  border-image-repeat: repeat;
-}
-
-.link2 {
-  border-style: solid;
-  border-width: 30px;
-  border-image-source: url(../assets/images/border-diamonds2.png);
-  border-image-slice: 30;
-  border-image-repeat: space;
-}
-
 .link3 {
   position: relative;
   display: inline-block;
