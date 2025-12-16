@@ -1,0 +1,27 @@
+:root {
+  --teal-100: #1DD4D8;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkcyan;
+}
+
+.link {
+  font-family: sans-serif;
+  color: white;
+  background-color: var(--teal-100);
+  padding: 16px 30px;
+  text-decoration: none;
+  outline: none;
+
+  /* border image */
+  border-image-source: url(../assets/images/link-pattern-top.png);
+  border-image-slice: 1;
+  border-image-width: 1073px;
+  border-image-outset: 16px;
+  border-image-repeat: repeat;
+}
