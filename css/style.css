@@ -77,6 +77,19 @@ body {
       background-size: 7px 770px;
       background-repeat: repeat-y;
     }
+
+    .link3__background-hover__right,
+    .link3__background__right {
+      position: absolute;
+      right: -7px;
+      top: -18px;
+      width: 7px;
+      height: calc(100% + 31px);
+      background-color: transparent;
+      background-size: 7px 770px;
+      background-repeat: repeat-y;
+      transform: scaleX(-1) scaleY(-1);
+    }
   }
 
   .link3__background {
@@ -87,6 +100,7 @@ body {
       background-image: url(../assets/images/link-pattern-top.svg);
     }
 
+    .link3__background__right,
     .link3__background__left {
       background-image: url(../assets/images/link-pattern-left.svg);
     }
@@ -100,6 +114,7 @@ body {
       background-image: url(../assets/images/link-pattern-top-hover.svg);
     }
 
+    .link3__background-hover__right,
     .link3__background-hover__left {
       background-image: url(../assets/images/link-pattern-left-hover.svg);
     }
@@ -109,5 +124,8 @@ body {
     display: inline-block;
     padding: 16px 30px;
     position: relative;
+    color: #232324;
+    text-transform: uppercase;
+    line-height: 160%;
   }
 }
