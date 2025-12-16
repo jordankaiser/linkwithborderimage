@@ -52,21 +52,56 @@ body {
       background-size: 4292px 39px;
       background-repeat: repeat-x;
     }
+
+    .link3__background-hover__bottom,
+    .link3__background__bottom {
+      position: absolute;
+      bottom: -24px;
+      left: 0;
+      width: 100%;
+      height: 25px;
+      background-color: transparent;
+      background-size: 4292px 39px;
+      background-repeat: repeat-x;
+      transform: scaleY(-1) scaleX(-1);
+    }
+
+    .link3__background-hover__left,
+    .link3__background__left {
+      position: absolute;
+      left: -7px;
+      top: -13px;
+      width: 7px;
+      height: calc(100% + 31px);
+      background-color: transparent;
+      background-size: 7px 770px;
+      background-repeat: repeat-y;
+    }
   }
 
   .link3__background {
     background-color: var(--teal-100);
 
+    .link3__background__bottom,
     .link3__background__top {
       background-image: url(../assets/images/link-pattern-top.svg);
+    }
+
+    .link3__background__left {
+      background-image: url(../assets/images/link-pattern-left.svg);
     }
   }
   .link3__background-hover {
     background-color: #EFBE25;
     opacity: 0;
 
+    .link3__background-hover__bottom,
     .link3__background-hover__top {
       background-image: url(../assets/images/link-pattern-top-hover.svg);
+    }
+
+    .link3__background-hover__left {
+      background-image: url(../assets/images/link-pattern-left-hover.svg);
     }
   }
 
